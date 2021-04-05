@@ -43,10 +43,20 @@
 
 *디지털 시스템은 아날로그와의 인터페이스를 필요로 하기 때문에 전체 시스템을 효율적으로 구축하기 위해서는 아날로그 신호의 본질이나 특성을 이해해야한다.*
 
-
-
-
 # Representation of digital information
+
+## 디지털 정보의 전압레벨
+
+디지털 정보를 표현하기 위해 2진수 체계를 사용한다. 사용하는 2진수 체계는 0과 1만의 2종류의 digit를 사용한다. 따라서 정보를 가장 간단한 형태로 나타낼 수 있다.
+
+## 디지털 정보의 표현 단위
+
+```markdown
+1nibble = 4bit
+1byte = 8bit
+1byte = 1character
+1word = CPU가 취급하는 명령어나 데이터 길이에 해당하는 bit
+```
 
 # Logic levels and Pulse waveforms
 
