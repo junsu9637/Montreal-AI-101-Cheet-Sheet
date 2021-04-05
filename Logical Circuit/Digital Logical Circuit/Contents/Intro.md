@@ -102,7 +102,7 @@
 
 듀티 사이클은 충격 계수라고도 하는데 주기적인 펄스파형의 특성을 반영한다. 듀티 사이클은 다음과 같이 정의된다.
 
-duty cycle = t<sub>w</sub>/T * 100%
+> duty cycle = t<sub>w</sub>/T * 100%
 
 
 # Digital Integrated Circuit
