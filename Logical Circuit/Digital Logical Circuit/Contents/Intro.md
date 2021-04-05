@@ -3,6 +3,7 @@
 [3. 논리 레벨과 펄스파형](#logic-levels-and-pulse-waveforms)               
 [4. 디지털 집적회로](#digital-integrated-circuit)                
 [5. ADC와 DAC](#adc-and-dac)        
+[예제](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Example/ACT1.md)
 
 # Digital and analog
 
