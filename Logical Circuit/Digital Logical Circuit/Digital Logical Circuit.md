@@ -1,4 +1,4 @@
-1. 들어가기
+[1. 들어가기](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Contents/Intro.md)
 2. 수의 체계
 3. 디지털 코드
 4. 논리게이트
