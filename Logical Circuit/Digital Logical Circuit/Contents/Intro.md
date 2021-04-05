@@ -58,15 +58,52 @@
 1word = CPU가 취급하는 명령어나 데이터 길이에 해당하는 bit
 ```
 
-[1.1](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_1.png?raw=true)
+![1.1](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_1.png?raw=true)
 
 비트는 0부터 시작을 한다. 가장 왼쪽에 있는 비트를 **MSB**, 가장 오른쪽에 있는 비트를 **LSB**라고 한다. 정보의 용량이 커지면 다음과 같이 **SI**, **IEC**를 따른다.
 
-[1.2](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_2.png?raw=true)
+![1.2](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_2.png?raw=true)
 
 컴퓨터의 성능이 발전하면서 다룰 수 있는 정보의 용량이 증가하면서 SI와 IEC간의 오차 또한 증가한다. 따라서 IEC 60027-2에 정의된 정확한 단위를 사용해야 한다.
 
 # Logic levels and Pulse waveforms
+
+## 정논리와 부논리
+
+디지털 논리 시스템은 보통 전압이 가해지고 있는 상태(HIGH 레벨)을 1이라고 표현하고, 전압이 가해지고 있지 않은 상태(LOW 레벨)을 0이라고 표현한다.
+
+**정논리(=양논리)** 는 HIGH 레벨을 1이라고 표현하는 방식이고, **부논리(=음논리)** 는 LOW 레벨을 1이라고 표현하는 방식이다.
+
+## 펄스 파형
+
+### 펄스
+전압 레벨이 HIGH와 LOW 상태를 반복하는 상태로 **주기 펄스**와 **비주기 펄스**로 나뉜다. 주기 펄스는 일정한 구간마다 파형이 반복되고, 비주기 펄스는 주기가 없다.
+
+이상적인 펄스 파형은 다음과 같다.
+
+![1.3](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_3.png?raw=true)
+
+이상적인 펄스 파형은 두 개의 에지(상승에지, 하강에지)로 구성된다. 상승에지는 리딩 에지, 하강에지는 트레일링 에지라고도 한다.
+
+하지만 실제적인 펄스 파형은 다음과 같다.
+
+![1.4](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_4.png?raw=true)
+
+상승 시간은 LOW 레벨에서 HIGH 레벨로 증가하는데 걸리는 시간이고, 하강 시간은 HIGH 레벨에서 LOW 레벨로 감소하는데 걸리는 시간을 의미한다.
+실제로는 진폭이 10%에서 90%까지 증가하는 시간을 상승 시간으로 정의하고 진폭이 90%에서 10%로 감소하는 시간을 하강 시간이라고 정의한다. 펄스 폭은 상승 구간과 하강 구간의 50%인 두 지점 사이 시간 간격으로 정의한다.
+
+## 주기, 주파수, 및 듀티 사이클
+
+### 주파수
+> 주기적인 파형이 1초 동안에 진동한 횟수
+  주파수와 주기는 역수 관계
+  
+### 듀티 사이클
+
+듀티 사이클은 충격 계수라고도 하는데 주기적인 펄스파형의 특성을 반영한다. 듀티 사이클은 다음과 같이 정의된다.
+
+duty cycle = t<sub>w</sub>/T * 100%
+
 
 # Digital Integrated Circuit
 
