@@ -1,8 +1,8 @@
-[1. 디지털과 아날로그](#digital-and-analog)
-2. 디지털 정보의 표현(#representation-of-digital-information)
-3. 논리 레벨과 펄스파형(#logic-levels-and-pulse-waveforms)
-4. 디지털 집적회로(#digital-integrated-circuit)
-5. ADC와 DAC(#adc-and-dac)
+[1. 디지털과 아날로그](#digital-and-analog)                   
+[2. 디지털 정보의 표현](#representation-of-digital-information)           
+[3. 논리 레벨과 펄스파형](#logic-levels-and-pulse-waveforms)               
+[4. 디지털 집적회로](#digital-integrated-circuit)                
+[5. ADC와 DAC](#adc-and-dac)        
 
 # Digital and analog
 
@@ -13,12 +13,12 @@
    시간에 따라 연속적인 값을 갖음
 
 ### 디지털 신호
-> - 분명히 구별되는 두 레벨의 신호값 만을 갖음
+> 분명히 구별되는 두 레벨의 신호값 만을 갖음
 
 ## 디지털 시스템과 아날로그 시스템
 
 ### 시스템
-> 임의읭 종합된 형태의 작업이나 기능을 수행하는 일정한 체계를 갖춘 기기의 집합체
+> 임의 종합된 형태의 작업이나 기능을 수행하는 일정한 체계를 갖춘 기기의 집합체
 
 ### 아날로그 시스템
 > 연속적인 정보를 입력받아 연속적인 형태의 정보를 출력하는 시스템
@@ -57,6 +57,14 @@
 1byte = 1character
 1word = CPU가 취급하는 명령어나 데이터 길이에 해당하는 bit
 ```
+
+[1.1](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_1.png?raw=true)
+
+비트는 0부터 시작을 한다. 가장 왼쪽에 있는 비트를 **MSB**, 가장 오른쪽에 있는 비트를 **LSB**라고 한다. 정보의 용량이 커지면 다음과 같이 **SI**, **IEC**를 따른다.
+
+[1.2](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_2.png?raw=true)
+
+컴퓨터의 성능이 발전하면서 다룰 수 있는 정보의 용량이 증가하면서 SI와 IEC간의 오차 또한 증가한다. 따라서 IEC 60027-2에 정의된 정확한 단위를 사용해야 한다.
 
 # Logic levels and Pulse waveforms
 
