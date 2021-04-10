@@ -34,9 +34,23 @@
 > 소수점이 움직이는 수
 
 ## 10진수-2진수 변환
+![2.1](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/2_1.png?raw=true)
 
-### 10진수 -> 2진수
+### 10진수-8진수 변환
+![2.2](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/2_2.png?raw=true)
 
+### 10진수-16진수 변환
+![2.3](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/2_3.png?raw=true)
+
+### 10진수-5진수 변환
+![2.4](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/2_4.png?raw=true)
+
+### 2진수-8진수-16진수-10진수 상호 변환
+![2.5](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/2_5.png?raw=true)
+
+![2.6](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/2_6.png?raw=true)
+
+![2.7](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/2_7.png?raw=true)
 
 # Binary Integer Operation and Repair
 
