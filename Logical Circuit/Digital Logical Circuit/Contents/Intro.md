@@ -125,11 +125,49 @@
 
 PCB에 장착하는 방법에 따라 **삽입 장착형**과 **표면 실장형**으로 구분한다.
 
+### PCB
+
+> 위에 칩이나 기타 전자부품들이 설치되어 있는 판      
+  시스템보드 또는 마더보드라고 부른다
+
 ### 삽입 장착형 IC
-> PCB 보드의 구명에 끼우는 핀을 가지고 있어 뒷면의 도체에 납땜으로 연결할 수 있다.
+> PCB 보드의 구명에 끼우는 핀을 가지고 있어 뒷면의 도체에 납땜으로 연결할 수 있다
   DIP 형태를 갖는다
   
 ### 표면 실장형 IC
 > PCB 표면에 금속 처리된 곳에 직접 납땜 처리
+
+![1.5](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_5.png?raw=true)
+
+### DIP
+> 집적회로에 가장 널리 사용되는 핀 배열 
+  집적회로 양쪽 면에 두 개의 직선으로 정렬
+  
+### SOIC
+> DIP의 리드 간격을 절반으로 줄이고, 리드는 표면 실장을 위해 구부러짐
+
+### QFP
+> 리드가 4방향으로 나온 SOIC
+
+### PLCC
+> 리드 끝부분이 J형으로 구부러짐
+
+### SMD
+> 기판에 직접 납땜하는 집적회로
+  장치 제거가 어려움
+  DIP 크기의 70%, 무게의 90% 감소로 인한 제조 가격 하락
+
+### 디지털 시스템의 장점
+```markdown
+1. 소형화 및 경량화
+2. 생산가격 저렴화
+3. 소비전력 감소
+4. 동작속도 고속화
+5. 신뢰도 상승
+```
+
+## 집적회로의 분류
+
+![1.6](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_6.png?raw=true)
 
 # ADC and DAC
