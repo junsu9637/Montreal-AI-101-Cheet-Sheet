@@ -171,3 +171,44 @@ PCB에 장착하는 방법에 따라 **삽입 장착형**과 **표면 실장형*
 ![1.6](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_6.png?raw=true)
 
 # ADC and DAC
+
+다음과 같은 장점으로 인해 아날로그 신호를 디지털 신호로 변환하여 처리한다.
+```markdown
+1. 디지털 회로를 통한 신호처리가 잡음의 영향을 덜 받고, 신뢰도 높음
+2. 정보 저장 가능 및 대규모 IC화 용이
+```
+
+> **아날로그-디지털 변환기(ADC)** : Analog-to-Digital-Converter           
+  **디지털-아날로그 변환기(DAC)** : Digital-to-Analog-Converter
+
+따라서 **아날로그-디지털 변환기(ADC)** 를 통해 아날로그 신호를 디지털 신호로 변환한다. 변환은 다음과 같이 이루어진다.
+
+![1.7](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_7.png?raw=true)
+
+## 표본화
+
+![1.8](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_8.png?raw=true)
+
+아날로그 신호를 디지털 신호로 변환하기 위해서는 일정한 간격으로 표본화를 진행해야 한다.
+
+### 샤논의 표본화 정리
+> 신호의 최고 주파수의 2배 이상의 빈도로 샘플링하면 샘플링된 데이터로부터 본래 데이터를 재현 가능하다
+
+## 양자화
+
+![1.9](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_9.png?raw=true)
+
+펄스의 진폭 크기를 디지털 양으로 변환해야 한다. 이 과정에서 불가피한 **양자화 잡음**이 발생한다. 양자화 잡음은 미리 정한 신호레벨의 수를 늘려 줄일 수 있으나 데이터의 양이 많아진다.
+
+## 부호화
+
+![1.10](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_10.png?raw=true)
+
+양자화한 값을 2진 디지털 부호로 변환해야 한다. 일반적으로 음성에서는 8비트로 부호화를 수행한다.
+
+전체 과정은 다음과 같이 수행된다.
+![1.11](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_11.png?raw=true)
+
+## ADC와 DAC
+
+![1.12](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_12.png?raw=true)
