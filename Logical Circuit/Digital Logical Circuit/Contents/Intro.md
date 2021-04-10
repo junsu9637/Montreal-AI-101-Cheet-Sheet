@@ -207,6 +207,7 @@ PCB에 장착하는 방법에 따라 **삽입 장착형**과 **표면 실장형*
 양자화한 값을 2진 디지털 부호로 변환해야 한다. 일반적으로 음성에서는 8비트로 부호화를 수행한다.
 
 전체 과정은 다음과 같이 수행된다.
+
 ![1.11](https://github.com/junsu9637/Study/blob/main/Logical%20Circuit/Digital%20Logical%20Circuit/Image/1_11.png?raw=true)
 
 ## ADC와 DAC
