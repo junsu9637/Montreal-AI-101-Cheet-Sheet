@@ -6,7 +6,7 @@
 
 # Introduction of Discrete Probabilities
 
-## 서론
+## 이산확률의 도입
 
 확률 이론은 컴퓨터공학에서 다음과 같은 역할을 담당한다.
 ```markdown
@@ -43,9 +43,35 @@
 P(여사건) = |S|-|E|/|S| = 1-|E|/|S| = 1-P(E)
 ```
 
+## 합사건(Union event)
 
+> 합사건 : P(E<sub>1</sub> U E<sub>1\2</sub>) = P(E<sub>1</sub>) + P(E<sub>1</sub>) - P(E<sub>1</sub> & E<sub>1\2</sub>)
+
+## 확률적 추론(Probabilistic Reasoning)
 
 # Probability Theory
+
+## 확률론
+
+앞서 확률을 정의할 때 모든 경우의 발생 가능성이 모두 같다고 정의했다. 그렇다면 발생 가능성이 같지 않은 실험의 경우에서 사건의 발생 가능성을 어떻게 모델링 할 것인가?
+
+## 확률분포(Probability distribution)
+
+표본공간 S의 확률을 P(s)라고 할 때, 다음의 조건을 만족해야 한다.
+```markdown
+1. 표본공간 S의 모든 s에 대하여 0<= P(s) <= 1
+-> 각 경우의 확률이 0~1
+2. P(s)의 총합 = P(E) = 1
+-> 모든 결과의 확률의 총합 = 1
+```
+**확률분포**는 다음과 같은 조건을 만족한다.
+> 표본공간 S의 모든 결과의 집합에 대한 함수 P
+
+s가 n개일 때, s의 각 확률이 1/n으로 동일할 때의 확률분포를 **균등분포(Uniform distribution)** 이라고 한다.
+
+적절한 확률분포 P(s)를 선택함으로써 발생 가능성이 같거나 다른 실험들을 모델링하는 것이 가능해진다.
+
+## 여사건과 합사건의 확률
 
 # Bayes Theorem
 
