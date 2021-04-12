@@ -1,7 +1,8 @@
-[1. 이산확률의 도입](#introduction-of-discrete-probabilities)
-[2. 확률론](#probability-theory)
-[3. 베이즈 정리](#bayes-theorem)
+[1. 이산확률의 도입](#introduction-of-discrete-probabilities)          
+[2. 확률론](#probability-theory)                 
+[3. 베이즈 정리](#bayes-theorem)              
 [4. 기댓값과 분산](#expected-values-and-variance)
+[예제]()
 
 # Introduction of Discrete Probabilities
 
