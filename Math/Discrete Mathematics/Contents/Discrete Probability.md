@@ -1,5 +1,5 @@
 [1. 이산확률의 도입](#introduction-of-discrete-probabilities)          
-[1절 예제](https://github.com/junsu9637/Study/blob/main/Math/Discrete%20Mathematics/Example/ACT7_1.md)
+[1절 예제](https://github.com/junsu9637/Study/blob/main/Math/Discrete%20Mathematics/Example/ACT7_1.md)          
 [2. 확률론](#probability-theory)                 
 [3. 베이즈 정리](#bayes-theorem)              
 [4. 기댓값과 분산](#expected-values-and-variance)            
