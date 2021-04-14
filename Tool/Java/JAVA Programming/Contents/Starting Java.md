@@ -1,10 +1,8 @@
 [1. 컴퓨터와 프로그래밍](#conputer-and-programming)           
 [2. 자바의 출현과 WORA](#emergence-of-java-and-wora)                
-[3. 개발 도구와 자바 플랫폼](#development-tools-and-java-platforms#)                 
-[4. 자바 프로그램 개발](#java-program-development)                
-[5. 이클립스를 이용한 자바 프로그램 개발](#development-of-java-program-using-eclipse)                    
-[6. 자바 언어의 활용](#use-of-java-language)             
-[7. 자바의 특징](#characteristics-of-java)             
+[3. 개발 도구와 자바 플랫폼](#development-tools-and-java-platforms#)                                   
+[4. 자바 언어의 활용](#use-of-java-language)             
+[5. 자바의 특징](#characteristics-of-java)             
 
 # Conputer and Programming
 
@@ -172,13 +170,25 @@ JDK는 여러 종류가 있는데 이를 **배포판** 이라고 부른다. 대�
 
 `Java API + JVM`
 
+### Java API
+
+개발자들이 사용하도록 미리 만들어놓은 자바 클래스 집합이다.
+
 ![1.4](https://github.com/junsu9637/Study/blob/main/Tool/Java/JAVA%20Programming/Image/1_4.png?raw=true)
 
-# Java Program Development
+## 모듈 프로그래밍
 
-# Development of Java Program Using Eclipse
+자바의 모듈화는 Java 9에서 정의된 개념으로 응용 프로그램이 실행되는데 필요 없는 모듈을 배재하여 작은 크기로 배포하기 위해서 진행한다. 
+
+## Java IDE
+
+**IDE(Integrated Development Environment)**
+> 소스 코드 편집, 컴파일, 디버깅을 한꺼번에 할 수 있는 통합 개발 환경      
+  Jaca의 대표적인 IDE로는 이클립스가 있다.
 
 # Use of Java Language
+
+
 
 # Characteristics of Java
 
