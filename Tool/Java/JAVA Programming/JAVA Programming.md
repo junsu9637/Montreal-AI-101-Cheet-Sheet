@@ -1,4 +1,4 @@
-[1. 자바 시작](https://github.com/junsu9637/Study/blob/main/Tool/Java/The%20Essence%20of%20Java/Contents/Starting%20Java.md)
+[1. 자바 시작](https://github.com/junsu9637/Study/blob/main/Tool/Java/JAVA%20Programming/Contents/Starting%20Java.md)
 2. 자바 기본 프로그래밍
 3. 반복문과 배열 그리고 예외처리
 4. 클래스와 객체
