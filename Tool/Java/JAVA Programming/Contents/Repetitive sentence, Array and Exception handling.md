@@ -7,7 +7,98 @@
 [7. 자바의 예외 처리](#exception-handling-of-java)           
 
 # Repetitive sentence
+
+## for 문
+
+```Java
+for (초기문; 조건식; 반복 후 작업) 
+{
+  //작업문
+}
+
+for(i=0; i<10; i++) 
+{
+  System.out.print(i);
+} // 123456789
+```
+
+### 초기문
+
+초기문은 다음과 같은 특징을 갖는다.
+```markdown
+1. 조건식에서 사용하는 변수를 초기화한다.
+2. 시작할 때 한 번만 수행된다.
+3. ,로 분리하여 여러 문장을 나열할 수 있다.
+4. 빈 상태로 두어도 되지만 항상 ;은 있어야 한다.
+```
+
+다음과 같이 초기문에서 변수를 선언 할 수 있다. 하지만 이 변수는 **지역변수**로 for문에서만 사용 가능하다.
+```Java
+for(int i=0; ...) {} 
+```
+
+### 조건식
+
+조건식은 다음과 같은 특징을 갖는다.
+```markdown
+1. 논리형 변수나 논리 연산을 사용한다.
+2. 조건식 결과가 true면 반복되고 false면 벗어난다.
+3. 조건식이 비어있거나 true면 무한 반복한다.
+```
+
+## while 문
+
+```Java
+while (조건식)
+{
+  // 작업문
+}
+
+while (i<10)
+{
+  System.out.print(i)
+  i++
+} // 123456789
+```
+
+## do-while 문
+```Java
+do
+{
+  // 작업문
+} while(조건식);
+```
+
+do-while문은 while문과 다르게 조건식이 false더라도 작업문을 한 번 실행한다.
+
 # Continue and Break
+
+## continue 문
+
+**continue 문**은 반복문을 빠져나가지 않으면서 즉시 다음 반복으로 넘어간다. 즉 다음과 같이 실행 경로만 변경되는 것이다.
+
+![3.1](https://github.com/junsu9637/Study/blob/main/Tool/Java/JAVA%20Programming/Image/3_1.png?raw=true)
+
+## break 문
+
+**break 문**은 다음과 같이 하나의 반복문을 즉시 벗어난다.
+
+![3.2]()
+
+종종 while 문의 경우 조건식을 이용하여 while 문을 벗어나게 만들기 까다로운 경우가 많다. 이 때 다음과 같이 break 문을 사용한다면 간단하게 작성할 수 있다.
+```Java
+while ((n%5 ==0) || (n<0))
+{
+  ...
+}
+
+while(true)
+{
+  if(n%5 == 0) break;
+  if(n<0) break;
+}
+```
+
 # Array
 # Multy-Array
 # Return Array in Method
