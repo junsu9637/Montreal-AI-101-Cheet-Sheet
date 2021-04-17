@@ -83,7 +83,7 @@ do-while문은 while문과 다르게 조건식이 false더라도 작업문을 �
 
 **break 문**은 다음과 같이 하나의 반복문을 즉시 벗어난다.
 
-![3.2]()
+![3.2](https://github.com/junsu9637/Study/blob/main/Tool/Java/JAVA%20Programming/Image/3_2.png?raw=true)
 
 종종 while 문의 경우 조건식을 이용하여 while 문을 벗어나게 만들기 까다로운 경우가 많다. 이 때 다음과 같이 break 문을 사용한다면 간단하게 작성할 수 있다.
 ```Java
@@ -100,6 +100,43 @@ while(true)
 ```
 
 # Array
+
+## 배열
+
+**배열**은 다음과 같이 같은 종류의 데이터들이 순차적으로 저장한다.
+```Java
+int i [] = new int[10];
+// 이름 i인 10개의 정수 공간 배열 생성
+```
+
+이러한 배열은 다음과 같이 반복문을 통해 활용할 수 있다.
+```Java
+for (sum=0, n=0; n<10; n++)
+{
+  sum += i[n];
+}
+// 10개의 정수의 합을 구한다.
+```
+
+Java에서 배열의 생성은 C와는 다르게 다음과 같이 2단계로 이루어진다.
+```markdown
+1. 배열에 대한 레퍼런스 생성
+2. 배열 생성 및 저장 공간 할당
+```
+
+위 내용을 코드로 확인해보면 다음과 같다.
+
+
+```Java
+int array [] = new int [5];
+
+int array [];         // 배열에 대한 레퍼런스 변수 array 선언
+array = new int [5];  // 배열 생성
+```
+
+## 배열 선언 및 생성
+
+
 # Multy-Array
 # Return Array in Method
 # main-Method
