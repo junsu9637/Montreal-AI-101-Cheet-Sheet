@@ -264,7 +264,7 @@ boolean isSingle = sc.nextBoolean(); // true
 
 자바에는 다음과 같은 식 연사자들이 존재한다.
 
-![2.5}(https://github.com/junsu9637/Study/blob/main/Tool/Java/JAVA%20Programming/Image/2_5.png?raw=true)
+![2.5](https://github.com/junsu9637/Study/blob/main/Tool/Java/JAVA%20Programming/Image/2_5.png?raw=true)
 
 ## 연산자 우선순위
 
@@ -282,7 +282,7 @@ boolean isSingle = sc.nextBoolean(); // true
 
 증감 연산자는 다음과 같다.
 
-![2.8}(https://github.com/junsu9637/Study/blob/main/Tool/Java/JAVA%20Programming/Image/2_8.png?raw=true)
+![2.8](https://github.com/junsu9637/Study/blob/main/Tool/Java/JAVA%20Programming/Image/2_8.png?raw=true)
 
 ```Java
 // 전위 연산자
