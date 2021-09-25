@@ -1,1 +1,1 @@
-1. 컴퓨터 시스템의 개요
+[1. 컴퓨터 시스템의 개요](#Summury_of_cumputer_system)
